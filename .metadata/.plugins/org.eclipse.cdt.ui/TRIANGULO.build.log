@@ -1,0 +1,14 @@
+21:20:45 **** Rebuild of configuration Debug for project TRIANGULO ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "css\\inicio.o" "..\\css\\inicio.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "css\\salida.o" "..\\css\\salida.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "css\\principal.o" "..\\css\\principal.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "css\\figura.o" "..\\css\\figura.cpp" 
+g++ -o TRIANGULO.exe "css\\figura.o" "css\\inicio.o" "css\\principal.o" "css\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: css\inicio.o: in function `Dibujar()':
+C:\Users\aleco\eclipse-workspace\TRIANGULO\Debug/../css/inicio.cpp:20: multiple definition of `Dibujar()'; css\figura.o:C:\Users\aleco\eclipse-workspace\TRIANGULO\Debug/../css/figura.cpp:47: first defined here
+C:/TDM-GCC-64/bin/../lib/gcc/x86_64-w64-mingw32/10.3.0/../../../../x86_64-w64-mingw32/bin/ld.exe: css\principal.o:C:\Users\aleco\eclipse-workspace\TRIANGULO\Debug/../css/principal.cpp:10: multiple definition of `main'; css\figura.o:C:\Users\aleco\eclipse-workspace\TRIANGULO\Debug/../css/figura.cpp:55: first defined here
+collect2.exe: error: ld returned 1 exit status
+
+21:20:55 Build Failed. 3 errors, 0 warnings. (took 10s.157ms)
+

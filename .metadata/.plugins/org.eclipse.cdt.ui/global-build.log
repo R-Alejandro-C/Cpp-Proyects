@@ -1,0 +1,120 @@
+20:07:36 **** Rebuild of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+
+20:07:41 Build Finished. 0 errors, 0 warnings. (took 4s.967ms)
+
+Info: Nothing to build for pk
+20:16:44 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\principal.o" "..\\src\\principal.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+..\src\inicio.cpp: In function 'void Dibujar()':
+..\src\inicio.cpp:21:1: error: 'PlanoCartesiano' was not declared in this scope
+   21 | PlanoCartesiano();
+      | ^~~~~~~~~~~~~~~
+20:16:48 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+..\src\inicio.cpp: In function 'void Dibujar()':
+..\src\inicio.cpp:21:1: error: 'PlanoCartesiano' was not declared in this scope
+   21 | PlanoCartesiano();
+      | ^~~~~~~~~~~~~~~
+20:17:08 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:20:56 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for pk
+Info: Nothing to build for pk
+Info: Nothing to build for pk
+Info: Nothing to build for pk
+Info: Nothing to build for pk
+20:24:24 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for pk
+20:25:46 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:27:13 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for pk
+20:31:31 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:32:34 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for pk
+20:35:01 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:36:31 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:38:14 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:39:46 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for pk
+20:40:44 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:41:15 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:41:34 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:41:56 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:42:12 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:42:28 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:42:44 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:43:09 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+20:46:23 **** Incremental Build of configuration Debug for project pk ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\salida.o" "..\\src\\salida.cpp" 
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp" 
+g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for pk
+Info: Nothing to build for pk

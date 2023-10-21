@@ -1,0 +1,304 @@
+/*
+ * salida.cpp
+ *
+ *  Created on: 12 oct 2023
+ *      Author: aleco
+ */
+
+
+#include "funciones.h"
+
+void hongoCara1 (){
+
+glBegin(GL_QUADS);
+glVertex2f(2.0,0.0);
+glVertex2f(2.0,1.2);
+glVertex2f(3.0,1.2);
+glVertex2f(3.0,0.0);
+glEnd();
+
+}
+void hongoCara2 (){
+
+	glBegin(GL_QUADS);
+	glVertex2f(1.9,0.2);
+	glVertex2f(1.9,0.8);
+	glVertex2f(3.1,0.8);
+	glVertex2f(3.1,0.2);
+	glEnd();
+
+	}
+void ojo1 (){
+
+	glBegin(GL_QUADS);
+	glVertex2f(2.2,0.6);
+	glVertex2f(2.2,1.0);
+	glVertex2f(2.35,1.0);
+	glVertex2f(2.35,0.6);
+	glEnd();
+
+}
+void ojo2 (){
+
+	glBegin(GL_QUADS);
+	glVertex2f(2.65,0.6);
+	glVertex2f(2.65,1.0);
+	glVertex2f(2.8,1.0);
+	glVertex2f(2.8,0.6);
+	glEnd();
+
+}
+
+void hongoCabeza0 (){
+
+	glBegin(GL_QUADS);
+	glVertex2f(1.9,0.8);
+	glVertex2f(1.9,1.2);
+	glVertex2f(3.1,1.2);
+	glVertex2f(3.1,0.8);
+	glEnd();
+
+}
+void hongoCabeza1 (){
+
+glBegin(GL_QUADS);
+glVertex2f(1.8,1.2);
+glVertex2f(1.8,2.0);
+glVertex2f(3.2,2.0);
+glVertex2f(3.2,1.2);
+glEnd();
+
+}
+void hongoCabeza2 (){
+
+glBegin(GL_QUADS);
+glVertex2f(1.9,2.0);
+glVertex2f(1.9,2.5);
+glVertex2f(3.1,2.5);
+glVertex2f(3.1,2.0);
+glEnd();
+
+}
+void hongoCabeza3 (){
+
+glBegin(GL_QUADS);
+glVertex2f(2.1,2.5);
+glVertex2f(2.1,2.8);
+glVertex2f(2.9,2.8);
+glVertex2f(2.9,2.5);
+glEnd();
+
+}
+void hongoCabeza4 (){
+
+glBegin(GL_QUADS);
+glVertex2f(2.3,2.8);
+glVertex2f(2.3,3.1);
+glVertex2f(2.7,3.1);
+glVertex2f(2.7,2.8);
+glEnd();
+
+}
+void hongoCabeza5 (){
+
+glBegin(GL_QUADS);
+glVertex2f(2.4,3.1);
+glVertex2f(2.4,3.5);
+glVertex2f(2.5,3.5);
+glVertex2f(2.5,3.1);
+glEnd();
+
+}
+
+///////////////////////
+void CañonFrente(){
+	glBegin(GL_LINE_LOOP);
+	glVertex2f(-2.0, 3.0);
+	glVertex2f(-4.0, 1.0);
+	glVertex2f(-8.0, 1.0);
+	glVertex2f(-8.0, 9.0);
+	glVertex2f(-4.0, 9.0);
+	glVertex2f(-2.0, 7.0);
+	glEnd();
+}
+
+void Ojo(){
+	glBegin(GL_QUADS);
+	glVertex2f(-4.0,6.0);
+	glVertex2f(-5.0, 6.0);
+	glVertex2f(-5.0, 7.0);
+	glVertex2f(-4.0, 7.0);
+	glEnd();
+}
+void Cola(){
+	glBegin(GL_QUADS);
+	glVertex2f(-8.5, 2.0);
+	glVertex2f(-9.5, 2.0);
+	glVertex2f(-9.5, 8.0);
+	glVertex2f(-8.5, 8.0);
+	glEnd();
+}
+void Cola2(){
+	glBegin(GL_QUADS);
+	glVertex2f(-10.0, 3.0);
+	glVertex2f(-11.0, 3.0);
+	glVertex2f(-11.0, 7.0);
+	glVertex2f(-10.0, 7.0);
+	glEnd();
+}
+void Cola3(){
+	glBegin(GL_QUADS);
+	glVertex2f(-12.0, 4.0);
+	glVertex2f(-13.0, 4.0);
+	glVertex2f(-13.0, 6.0);
+	glVertex2f(-12.0, 6.0);
+	glEnd();
+}
+
+////////////////////
+
+void cuerpo(){
+
+	glColor3f(0.0, 0.0, 0.0);;
+	glBegin(GL_QUADS);
+	glVertex2f(2.6,-2);
+	glVertex2f(3.3,-2);
+	glVertex2f(3.3,-5);
+	glVertex2f(2.6,-5);
+	glEnd();
+
+	glColor3f(0.6, 0.3, 0.0);
+	glBegin(GL_QUADS);
+	glVertex2f(3.3,-2.6);
+	glVertex2f(3.6,-2.6);
+	glVertex2f(3.6,-4.6);
+	glVertex2f(3.3,-4.6);
+	glEnd();
+
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_QUADS);
+	glVertex2f(3.6,-2);
+	glVertex2f(4,-2);
+	glVertex2f(4,-5);
+	glVertex2f(3.6,-5);
+	glEnd();
+}
+
+void cabeza(){
+	glColor3f(0.0, 0.0, 0.0);
+	glBegin(GL_POLYGON);
+	glVertex2f(2.6,-2);
+	glVertex2f(2.6,-5);
+	glVertex2f(1.9,-4.9);
+	glVertex2f(1.3,-4.6);
+	glVertex2f(1,-4.3);
+	glVertex2f(0.9,-3.3);
+	glVertex2f(0.9,-3.3);
+	glVertex2f(1,-2.9);
+	glVertex2f(1.3,-2.6);
+	glVertex2f(1.9,-2.3);
+	glEnd();
+
+	//ojos
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_TRIANGLES);
+	glVertex2f(1.1,-3.9);
+	glVertex2f(1.9,-4.6);
+	glVertex2f(1.9,-3.9);
+	glEnd();
+
+	glColor3f(1.0, 0.0, 0.0);
+	glBegin(GL_TRIANGLES);
+	glVertex2f(1.3,-4);
+	glVertex2f(1.6,-4.3);
+	glVertex2f(1.6,-4);
+	glEnd();
+
+	//boca
+	glColor3f(1.0, 0.0, 0.0);
+	glBegin(GL_POLYGON);
+	glVertex2f(1.3,-2.6);
+	glVertex2f(1.9,-3);
+	glVertex2f(1.6,-3.6);
+	glVertex2f(1.3,-3.3);
+	glVertex2f(0.9,-3.3);
+	glVertex2f(1,-2.9);
+	glEnd();
+
+	//diente
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_POLYGON);
+	glVertex2f(0.9,-3.3);
+	glVertex2f(0.95,-3);
+	glVertex2f(1,-3.3);
+	glVertex2f(1.15,-3);
+	glVertex2f(1.3,-3.3);
+	glVertex2f(1.5,-3.1);
+	glVertex2f(1.45,-3.45);
+	glEnd();
+
+	glColor3f(1.0, 1.0, 1.0);
+	glBegin(GL_POLYGON);
+	glVertex2f(1.3,-2.6);
+	glVertex2f(1.2,-2.95);
+	glVertex2f(1.6,-2.9);
+	glVertex2f(1.5,-3.15);
+	glVertex2f(1.9,-3);
+	glEnd();
+
+
+}
+
+///////////////////////////////////
+
+
+void CuadradoParte1(){
+	glBegin(GL_QUADS);
+	glVertex2f(-6.0, 0.0);
+	glVertex2f(-10.0, 0.0);
+	glVertex2f(-10.0, -14.0);
+	glVertex2f(-6.0, -14.0);
+	glEnd();
+}
+void CuadradoParte2(){
+	glBegin(GL_QUADS);
+	glVertex2f(-3.0, 0.0);
+	glVertex2f(-13.0, 0.0);
+	glVertex2f(-13.0, -4.0);
+	glVertex2f(-3.0, -4.0);
+	glEnd();
+}
+
+
+
+void Triangulo(){
+glColor3f(0.0f,0.0f,0.0f);
+hongoCabeza0();
+glColor3f(1.0f,1.0f,1.0f);
+hongoCara1();
+hongoCara2();
+glColor3f(0.0f,0.0f,0.0f);
+ojo1();
+ojo2();
+glColor3f(1.0f,0.0f,0.0f);
+hongoCabeza1();
+hongoCabeza2();
+hongoCabeza3();
+hongoCabeza4();
+
+CañonFrente();
+Cola();
+Cola2();
+Cola3();
+Ojo();
+
+cuerpo();
+cabeza();
+
+
+glColor3f(1.0, 1.0, 0.0);
+CuadradoParte1();
+CuadradoParte2();
+
+glFlush();
+}
