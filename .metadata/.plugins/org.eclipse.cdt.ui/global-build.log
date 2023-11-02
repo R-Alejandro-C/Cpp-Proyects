@@ -118,3 +118,34 @@ g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\inicio.o" "..\\src\\inicio.cpp"
 g++ -o pk.exe "src\\inicio.o" "src\\principal.o" "src\\salida.o" -lopengl32 -lglu32 -lfreeglut 
 Info: Nothing to build for pk
 Info: Nothing to build for pk
+21:41:19 **** Rebuild of configuration Debug for project luigi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o luigi.exe "src\\main.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for luigi
+Info: Nothing to build for luigi
+21:43:32 **** Incremental Build of configuration Debug for project luigi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o luigi.exe "src\\main.o" -lopengl32 -lglu32 -lfreeglut 
+Info: Nothing to build for luigi
+21:44:53 **** Incremental Build of configuration Debug for project luigi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o luigi.exe "src\\main.o" -lopengl32 -lglu32 -lfreeglut 
+21:45:51 **** Incremental Build of configuration Debug for project luigi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o luigi.exe "src\\main.o" -lopengl32 -lglu32 -lfreeglut 
+21:46:37 **** Incremental Build of configuration Debug for project luigi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o luigi.exe "src\\main.o" -lopengl32 -lglu32 -lfreeglut 
+21:46:53 **** Incremental Build of configuration Debug for project luigi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o luigi.exe "src\\main.o" -lopengl32 -lglu32 -lfreeglut 
+21:47:19 **** Incremental Build of configuration Debug for project luigi ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "src\\main.o" "..\\src\\main.cpp" 
+g++ -o luigi.exe "src\\main.o" -lopengl32 -lglu32 -lfreeglut 
