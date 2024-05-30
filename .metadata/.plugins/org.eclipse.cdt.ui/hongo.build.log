@@ -1,1 +1,7 @@
-Info: Nothing to build for hongo
+19:19:19 **** Rebuild of configuration Debug for project hongo ****
+Info: Internal Builder is used for build
+g++ -O0 -g3 -Wall -c -fmessage-length=0 -o "css\\figura.o" "..\\css\\figura.cpp" 
+g++ -o hongo.exe "css\\figura.o" -lopengl32 -lglu32 -lfreeglut 
+
+19:19:29 Build Finished. 0 errors, 0 warnings. (took 9s.673ms)
+

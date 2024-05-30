@@ -384,7 +384,7 @@ glEnd();
 
 }
 
-void Dibujar(){
+void Mario(){
 	glClear(GL_COLOR_BUFFER_BIT);
 
 
